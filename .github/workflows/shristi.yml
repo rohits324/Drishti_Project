@@ -1,4 +1,4 @@
-Name: Drishti Application Deployment
+name: Drishti Application Deployment
 
 on:
   push:
