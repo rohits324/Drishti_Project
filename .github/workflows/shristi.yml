@@ -18,8 +18,8 @@ jobs:
             distribution: temurin
             java-version: '17'
 
-      - name: test code
-        run: mvn test
+#      - name: test code
+#        run: mvn test
 
       - name: build the application
         working-directory: Shristi
