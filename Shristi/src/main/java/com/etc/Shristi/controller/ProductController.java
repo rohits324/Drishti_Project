@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http//:ecom-frontend-alb-60747621.us-east-1.elb.amazonaws.com")
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
